@@ -1,21 +1,6 @@
 <?xml version="1.0"?>
 <events>
     <event>
-        <uei>MATCH-ANY-UEI</uei>
-        <event-label>OpenNMS-defined event: MATCH-ANY-UEI</event-label>
-        <descr>
-            &lt;p&gt;This UEI will never be generated, but exists
-            so that notifications can match any UEI for a
-            particular filter rule. Useful to see all events for
-            a particular node via notifications.
-            &lt;/p&gt;
-        </descr>
-        <logmsg dest="logonly">
-            MATCH-ANY-UEI event.
-        </logmsg>
-        <severity>Indeterminate</severity>
-    </event>
-    <event>
         <uei>uei.opennms.org/internal/interfaceManaged</uei>
         <event-label>OpenNMS-defined internal event: interfaceManaged</event-label>
         <descr>
